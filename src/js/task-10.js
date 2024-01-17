@@ -29,6 +29,7 @@ function createBoxes(amount) {
 
   inputNumber.value = '';
 
+  boxes.innerHTML = '';
   boxes.append(...newDivs);
 }
 
